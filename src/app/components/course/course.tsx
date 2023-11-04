@@ -8,7 +8,9 @@ import ReactPlayer from 'react-player'
 const Course = () => {
     const {data ,isLoading} = useCourse()
     if (isLoading) {
-        return <Spinner/>
+        return <div className='bg-black w-full h-[800px]'>
+
+        </div>
     }
   return (
     <div className=' bg-black py-14'>
